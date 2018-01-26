@@ -93,7 +93,6 @@ body {
 
 #page1 > .bg {
     background: url("../img/p1_bg.jpg") no-repeat center center;
-    -webkit-background-size: 100%;
     background-size: 100%;
 }
 
@@ -105,7 +104,6 @@ body {
     margin: auto;
     background: url("../img/p1_lantern.png") no-repeat center bottom;
     background-size: 100%;
-    -webkit-background-size: 100%;
     width: 45vw;
     height: 71.2vh;
     font-size: 3.506rem;
@@ -170,7 +168,6 @@ body {
     left: 0;
     margin: auto;
     background: url("../img/p1_imooc.png") no-repeat center center;
-    -webkit-background-size: 100%;
     background-size: 100%;
     width: 27.656vw;
     height: 18.63vh;
@@ -201,7 +198,6 @@ body {
 
 #page2 > .bg {
     background: url("../img/p2_bg.jpg") no-repeat center center;
-    -webkit-background-size: 100%;
     background-size: 100%;
 }
 
@@ -237,9 +233,8 @@ body {
     bottom: 0;
     left: 0;
     margin: auto;
-    -webkit-background-size: 100%;
-    background-size: 100%;
     background: url("../img/p2_circle_outer.png") no-repeat center center;
+    background-size: 100%;
     width: 59.375vw;
     height: 59.375vw;
     -webkit-border-radius: 50%;
@@ -278,9 +273,8 @@ body {
     bottom: 0;
     left: 0;
     margin: auto;
-    -webkit-background-size: 100%;
-    background-size: 100%;
     background: url("../img/p2_circle_middle.png") no-repeat center center;
+    background-size: 100%;
     width: 45.625vw;
     height: 45.625vw;
     -webkit-border-radius: 50%;
@@ -319,9 +313,8 @@ body {
     bottom: 0;
     left: 0;
     margin: auto;
-    -webkit-background-size: 100%;
-    background-size: 100%;
     background: url("../img/p2_circle_inner.png") no-repeat center center;
+    background-size: 100%;
     width: 27.5vw;
     height: 6.24vh;
     -webkit-animation: p2_circle_inner 1s linear 1s infinite;
@@ -357,9 +350,8 @@ body {
     bottom: 0;
     left: 0;
     margin: auto;
-    -webkit-background-size: 100%;
-    background-size: 100%;
     background: url("../img/p2_2016.png") no-repeat center center;
+    background-size: 50%;
     width: 39.9375vw;
     height: 39.9375vw;
     -webkit-border-radius: 50%;
@@ -380,7 +372,6 @@ body {
 
 #page3 > .bg {
     background: url("../img/p3_bg.jpg") no-repeat center center;
-    -webkit-background-size: 100%;
     background-size: 100%;
 }
 
@@ -392,8 +383,8 @@ body {
     right: 0;
     left: 0;
     margin: auto;
-    background-size: 100%;
     background: url("../img/p3_logo.png") no-repeat center center;
+    background-size: 100%;
 }
 
 #page3 > .p3_title {
@@ -404,8 +395,8 @@ body {
     right: 0;
     left: 0;
     margin: auto;
-    background-size: 100%;
     background: url("../img/p3_title.png") no-repeat center center;
+    background-size: 100%;
 }
 
 #page3 > .p3_second {
@@ -414,8 +405,8 @@ body {
     position: absolute;
     top: 25.48vh;
     left: 3.75vw;
-    background-size: 100%;
     background: url("../img/p3_couplet_second.png") no-repeat center center;
+    background-size: 100%;
 }
 
 #page3 > .p3_first {
@@ -424,8 +415,8 @@ body {
     position: absolute;
     top: 25.48vh;
     right: 3.75vw;
-    background-size: 100%;
     background: url("../img/p3_couplet_first.png") no-repeat center center;
+    background-size: 100%;
 }
 
 #page3 > .p3_blessing {
@@ -437,8 +428,8 @@ body {
     left: 0;
     margin: auto;
     border-radius: 50%;
-    background-size: 100%;
     background: url("../img/p3_blessing.png") no-repeat center center;
+    background-size: 100%;
     -webkit-animation: p3_blessing 2s linear infinite;
     animation: p3_blessing 2s linear infinite;
 }
