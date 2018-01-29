@@ -6,11 +6,11 @@
 
 #page1 > .p1_bg {
     position: absolute;
-    width:100%;
+    width: 100%;
     height: 80%;
     right: 0;
     left: 0;
-    bottom:0;
+    bottom: 0;
     margin: auto;
     background: url("../img/bg.jpg") no-repeat center center;
     background-size: cover;
@@ -20,9 +20,9 @@
 #page1 > .p1_flower {
     z-index: -2;
     position: absolute;
-    width:80%;
+    width: 80%;
     height: 60%;
-    top:-10%;
+    top: -10%;
     right: 0;
     left: 0;
     margin: auto;
@@ -58,11 +58,11 @@
 #page1 > .p1_2018 {
     position: absolute;
     top: 3.2vh;
-    right:10vw;
-    left:0;
+    right: 10vw;
+    left: 0;
     margin: auto;
-    width:70vw;
-    height:13.5vh;
+    width: 50vw;
+    height: 13.5vh;
     background: url("../img/2018.png") no-repeat center center;
     background-size: contain;
 }
@@ -70,15 +70,143 @@
 #page1 > .p1_foxiyuyan {
     position: absolute;
     top: 15vh;
-    right:0;
-    left:0;
+    right: 0;
+    left: 0;
     margin: auto;
-    width:83vw;
-    height:18vh;
+    width: 73vw;
+    height: 18vh;
     background: url("../img/foxiyuyan.png") no-repeat center center;
     background-size: contain;
 }
 
-/*#page1 > .p1_heshang {*/
+#page1 > .p1_heshang {
+    position: absolute;
+    top: 33vh;
+    right: 0;
+    left: 0;
+    margin: auto;
+    width: 50vw;
+    height: 33vh;
+    background: url("../img/heshang.png") no-repeat center center;
+    background-size: contain;
+}
 
-/*}*/
+#page1 > .p1_name {
+    position: absolute;
+    right: 0;
+    bottom: 24vh;
+    left: 0;
+    margin: auto;
+    width: 53vw;
+    height: 10vh;
+    background: url("../img/kuang.png") no-repeat center center;
+    background-size: contain;
+    text-align: center;
+}
+
+#p1_placeholder {
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    width: 36vw;
+    height: 4vh;
+    text-align: center;
+    font-size: 3.6em;
+    color: grey;
+    outline: none;
+}
+
+#page1 > .p1_choose {
+    display: -webkit-flex;
+    display: flex;
+    width: 53vw;
+    height: 6vh;
+    position: absolute;
+    right: 0;
+    bottom: 20vh;
+    left: 0;
+    margin: auto;
+}
+
+#page1 > .p1_choose > .p1_left {
+    display: -webkit-flex;
+    display: flex;
+    left: 0;
+    width: 50%;
+    height: 100%;
+    flex-direction: row;
+    justify-content:center;
+    align-items:center;
+}
+
+#p1_nan {
+    width: 4.8vw;
+    height: 4.8vw;
+    padding-right: 2vw;
+}
+
+#page1 > .p1_choose > .p1_left > span {
+    font-size: 2.6em;
+    font-weight: bold;
+}
+
+#page1 > .p1_choose > .p1_right {
+    display: -webkit-flex;
+    display: flex;
+    left: 0;
+    width: 50%;
+    height: 100%;
+    flex-direction: row;
+    justify-content:center;
+    align-items:center;
+}
+
+#p1_nv {
+    width: 4.8vw;
+    height: 4.8vw;
+    padding-right: 2vw;
+}
+
+#page1 > .p1_choose > .p1_right > span {
+    font-size: 2.6em;
+    font-weight: bold;
+}
+
+#page1 > .p1_sure {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    width: 60vw;
+    height: 38vw;
+    text-align: center;
+}
+
+#page1 > .p1_sure > .p1_muyu {
+    z-index: 3;
+    position: absolute;
+    right: 0;
+    bottom: 1vh;
+    left: 0;
+    margin: auto;
+    width: 30vw;
+    height: 30vw;
+    background: url("../img/muyu.png") no-repeat center center;
+    background-size: contain;
+}
+
+#page1 > .p1_sure > .p1_mugun {
+    position: absolute;
+    right: 2vw;
+    bottom: 6vh;
+    margin: auto;
+    width: 30vw;
+    height: 30vw;
+    background: url("../img/mugun.png") no-repeat center center;
+    background-size: contain;
+}
