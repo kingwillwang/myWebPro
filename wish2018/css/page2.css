@@ -1,4 +1,101 @@
 /* pageContent2 page2 */
 #page2 {
-    display: none;
+    display: block;
 }
+
+#page2 > .p2_save {
+    position: absolute;
+    top: 2.5vh;
+    right: 0;
+    left: 0;
+    margin: auto;
+    width: 65vw;
+    height: 10vh;
+    background: url("../img/baocun.png") no-repeat center center;
+    background-size: contain;
+}
+
+#page2 > .p2_content {
+    position: absolute;
+    top: 13vh;
+    right: 0;
+    left: 0;
+    margin: auto;
+    width: 90%;
+    height: 76vh;
+    background: url("../img/bg.png") no-repeat center center;
+    background-size: 100% 100%;
+}
+
+#page2 > .p2_message {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    width: 90%;
+    height: 10vh;
+}
+
+#page2 > .p2_content > .p2_content_body {
+    width: 100%;
+    height: 70%;
+    background: url("../img/bg1.png") no-repeat center center;
+    background-size: 96% 96%;
+}
+
+#page2 > .p2_content > .p2_content_body > .p2_body_foxi2018 {
+    position: absolute;
+    top: 4vh;
+    right: 0;
+    left: 0;
+    margin: auto;
+    width: 43vw;
+    height: 13vh;
+    background: url("../img/foxiyuyan1.png") no-repeat center center;
+    background-size: 100% 100%;
+}
+
+#page2 > .p2_content > .p2_content_body > .p2_body_people {
+    position: absolute;
+    top: 13vh;
+    right: 0;
+    left: 0;
+    margin: auto;
+    width: 43vw;
+    height: 4vh;
+    text-align: center;
+    color: #E21837;
+    font-weight: bolder;
+    font-size: 4em;
+    line-height: 4vh;
+}
+
+/*#page2 > .p2_content > .p2_content_words {*/
+    /*width: 100%;*/
+    /*height: 15%;*/
+
+    /*background: blue;*/
+    /*!*!*position: absolute;*!*!*/
+    /*!*!*top: 0;*!*!*/
+    /*!*!*right: 0;*!*!*/
+    /*!*!*left: 0;*!*!*/
+    /*!*!*margin: auto;*!*!*/
+
+
+/*}*/
+
+/*#page2 > .p2_content > .p2_content_footer {*/
+    /*width: 100%;*/
+    /*height: 15%;*/
+
+    /*background: green;*/
+    /*!*!*position: absolute;*!*!*/
+    /*!*!*top: 0;*!*!*/
+    /*!*!*right: 0;*!*!*/
+    /*!*!*left: 0;*!*!*/
+    /*!*!*margin: auto;*!*!*/
+
+    /*!*background: url("../img/bg1.png") no-repeat center;*!*/
+    /*!*background-size: 100%;*!*/
+/*}*/

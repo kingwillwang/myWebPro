@@ -1,7 +1,7 @@
 /* pageContent2 page1 */
 
 #page1 {
-    display: block;
+    display: none;
 }
 
 #page1 > .p1_bg {
@@ -28,7 +28,6 @@
     margin: auto;
     background: url("../img/xuanzhuan.png") no-repeat center center;
     background-size: cover;
-
     -webkit-animation: p1_flower 10s linear infinite;
     animation: p1_flower 10s linear infinite;
 }
@@ -100,7 +99,6 @@
 }
 
 #page1 > .p1_foxiyuyan {
-    content: "";
     position: absolute;
     top: 15vh;
     right: 0;
@@ -306,6 +304,30 @@
     animation: p1_change_after 1.5s ease-in-out 0s infinite;
     -webkit-animation: p1_change_after 1.5s ease-in-out 0s infinite;
     animation-fill-mode: both;
+}
+
+@-webkit-keyframes p1_change_after {
+    7.5% {
+        /*变小*/
+        transform:scale(0.9);
+    }
+    15%,30%,45% {
+        /*变大并顺时针旋转10度*/
+        transform:scale(1.1) rotate(7deg);
+    }
+    22.5%,37.5%,52.5% {
+        /*大小不变并逆时针旋转20度*/
+        transform:scale(1.1) rotate(-7deg);
+
+    }
+    60% {
+        /*正常*/
+        transform:scale(1);
+    }
+    100% {
+        /*正常状态*/
+        transform:scale(1);
+    }
 }
 
 @keyframes p1_change_after {
