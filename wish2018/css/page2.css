@@ -38,6 +38,7 @@
 }
 
 #page2 > .p2_content > .p2_content_body {
+    position: relative;
     width: 100%;
     height: 70%;
     background: url("../img/bg1.png") no-repeat center center;
@@ -71,31 +72,85 @@
     line-height: 4vh;
 }
 
-/*#page2 > .p2_content > .p2_content_words {*/
-    /*width: 100%;*/
-    /*height: 15%;*/
+#p2_people_name {
+    font-size: 1em;
+}
 
-    /*background: blue;*/
-    /*!*!*position: absolute;*!*!*/
-    /*!*!*top: 0;*!*!*/
-    /*!*!*right: 0;*!*!*/
-    /*!*!*left: 0;*!*!*/
-    /*!*!*margin: auto;*!*!*/
+#page2 > .p2_content > .p2_content_body > .p2_body_wish {
+    position: absolute;
+    top:20vh;
+    right: 0;
+    left: 0;
+    margin: auto;
+    width: 88%;
+    height: 21vh;
+    background: url("../img/wish_1.png") no-repeat center center;
+    background-size: contain;
+}
 
+#page2 > .p2_content > .p2_content_body > .p2_body_time {
+    position: absolute;
+    right: 0;
+    bottom: 5vh;
+    left: 0;
+    margin: auto;
+    width: 75%;
+    height: 7vh;
+    background: url("../img/time.png") no-repeat center center;
+    background-size: contain;
+}
 
-/*}*/
+#page2 > .p2_content > .p2_content_words {
+    position: relative;
+    top:1vh;
+    width: 100%;
+    height: 10%;
+    display: -webkit-flex;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
 
-/*#page2 > .p2_content > .p2_content_footer {*/
-    /*width: 100%;*/
-    /*height: 15%;*/
+#p2_content_words_1 {
+    font-family: "方正兰亭黑简体";
+    font-size: 1em;
+}
 
-    /*background: green;*/
-    /*!*!*position: absolute;*!*!*/
-    /*!*!*top: 0;*!*!*/
-    /*!*!*right: 0;*!*!*/
-    /*!*!*left: 0;*!*!*/
-    /*!*!*margin: auto;*!*!*/
+#page2 > .p2_content > .p2_content_words > p {
+    font-family: "华文宋体";
+    font-weight: 900;
+    letter-spacing: 4px;
+    font-size: 3.6em;
+    text-align: center;
+}
 
-    /*!*background: url("../img/bg1.png") no-repeat center;*!*/
-    /*!*background-size: 100%;*!*/
-/*}*/
+#page2 > .p2_content > .p2_content_footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 15%;
+    display: -webkit-flex;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#page2 > .p2_content > .p2_content_footer > .p2_footer_left {
+    margin-left: 3vw;
+    margin-right: 3vw;
+    width: 50%;
+    height: 50%;
+    background: url("../img/again.png") no-repeat center center;
+    background-size: contain;
+}
+
+#page2 > .p2_content > .p2_content_footer > .p2_footer_right {
+    margin-right: 3vw;
+    margin-left: 3vw;
+    width: 50%;
+    height: 50%;
+    background: url("../img/mywish.png") no-repeat center center;
+    background-size: contain;
+}
