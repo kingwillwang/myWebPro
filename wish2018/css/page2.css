@@ -1,6 +1,6 @@
 /* pageContent2 page2 */
 #page2 {
-    display: block;
+    display: none;
 }
 
 #page2 > .p2_save {
@@ -84,6 +84,7 @@
     margin: auto;
     width: 88%;
     height: 21vh;
+    text-align: center;
     background: url("../img/wish_1.png") no-repeat center center;
     background-size: contain;
 }

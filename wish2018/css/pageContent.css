@@ -30,12 +30,12 @@ body {
 
 /* pageContent1 */
 #pageContent1 {
-    display: none;
+    display: block;
 }
 
 /* pageContent2 */
 #pageContent2 {
-    display: block;
+    display: none;
 }
 
 .page {
