@@ -8,7 +8,6 @@
     <link rel="stylesheet" type="text/css" href="css/page1.css">
     <link rel="stylesheet" type="text/css" href="css/page2.css">
     <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
-    <script type="text/javascript" src="js/main.js"></script>
 </head>
 <body>
 <div class="pageContent" id="pageContent1">
@@ -18,32 +17,30 @@
 <div class="pageContent" id="pageContent2">
     <div class="bg"></div>
     <div class="music play" id="music"></div>
-    <div class="page" id="page1">
+    <form class="page" id="page1">
         <div class="p1_bg"></div>
         <div class="p1_flower"></div>
         <div class="p1_2018"></div>
         <div class="p1_foxiyuyan"></div>
         <div class="p1_heshang"></div>
         <div class="p1_name">
-           <input type="text" name="name" value="请输入姓名" required id="p1_placeholder">
+            <input type="text" name="name"  placeholder="请输入姓名" required value="" id="p1_placeholder">
         </div>
         <div class="p1_choose">
             <div class="p1_left">
-                <span class="radio-bg"></span>
-                <input type="radio" name="sex" id="man" value="1" checked="checked" />男神
-                <span class="radio-on"></span>
+                <span class="radio-bg-left"></span>
+                <input type="radio" name="sex" id="man" value="1" checked="checked"/>男神
             </div>
             <div class="p1_right">
-                <span class="radio-bg"></span>
-                <input type="radio" name="sex" id="woman" value="2" />女神
-                <span class="radio-on"></span>
+                <span class="radio-bg-right"></span>
+                <input type="radio" name="sex" id="woman" value="2"/>女神
             </div>
         </div>
         <div class="p1_sure">
-            <div class="p1_muyu" id="p1_muyu_change"></div>
-            <div class="p1_mugun"></div>
+            <button type="submit" class="p1_muyu" id="p1_muyu_change"></button>
+            <div class="p1_mugun" id="p1_mugun_click"></div>
         </div>
-    </div>
+    </form>
     <div class="page" id="page2">
         <div class="p2_save"></div>
         <div class="p2_content">
@@ -65,6 +62,6 @@
         <div class="p2_message"></div>
     </div>
 </div>
-
+<script type="text/javascript" src="js/main.js"></script>
 </body>
 </html>

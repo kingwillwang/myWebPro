@@ -43,13 +43,16 @@ var imgs = [
 
 
 var time = null;
+var sex;
 
 window.onload = init;
 
 //初始化
 function init() {
     loadImg();
-    // chooseSex();
+    chooseMan();
+    chooseWoman();
+    checkName();
 }
 
 //预加载图片
@@ -58,7 +61,7 @@ function loadImg() {
     var index = 0,
         len = imgs.length,
         count = 0,
-        $progress = $(".loading");
+        $progress = $('.loading');
 
     //遍历数组，获取数组内全部路径
     $.each(imgs, function(i,src) {
@@ -96,29 +99,45 @@ function wait() {
 function timing() {
     clearTimeout(time);
     time = setTimeout(function() {
-        $("#p1_muyu_change").removeClass("p1_muyu").addClass("p1_muyu_after");
+        $('#p1_muyu_change').removeClass('p1_muyu').addClass('p1_muyu_after');
     },2700);
 }
 
 //页面跳转
 function doAction() {
-    $("#pageContent1").css("display" ,"none");
-    $("#pageContent2").css("display" ,"block");
-    $("#page1").css("display" ,"block");
+    $('#pageContent1').css('display' ,'none');
+    $('#pageContent2').css('display' ,'block');
+    $('#page1').css('display' ,'block');
     timing();
 }
 
-// function chooseSex() {
-//     $(".p1_left").click(function(){
-//         $("#p1_nan").attr('src',"img/hongdian.png");
-//         $("#p1_nv").attr('src',"img/baidian.png");
-//     });
-//     $(".p1_right").click(function(){
-//         $("#p1_nan").attr('src',"img/baidian.png");
-//         $("#p1_nv").attr('src',"img/hongdian.png");
-//     });
-// }
+function chooseMan() {
+    $('.p1_left').click(function(event){
+        $('#woman').prop('checked',false);
+        $('#man').prop('checked',true);
+        $('.radio-bg-left').css('background-color','#d60b3b');
+        $('.radio-bg-right').css('background-color','#fff');
+        event.stopPropagation();
+        sex = 1;
+    });
+}
 
+function chooseWoman() {
+    $(".p1_right").click(function(event){
+        $('#man').prop('checked',false);
+        $('#woman').prop('checked',true);
+        $('.radio-bg-right').css('background-color','#d60b3b');
+        $('.radio-bg-left').css('background-color','#fff');
+        event.stopPropagation();
+        sex = 2;
+    });
+}
+
+function checkName() {
+    $('.p1_muyu').click(function(){
+        $('#p1_mugun_click').removeClass('p1_mugun').addClass('p1_mugun_move');
+    });
+}
 
 
 // //设置上一张下一张触发事件
