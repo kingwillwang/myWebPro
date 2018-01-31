@@ -20,14 +20,14 @@
 #page1 > .p1_flower {
     z-index: -2;
     position: absolute;
-    width: 80%;
-    height: 60%;
+    width: 98vw;
+    height: 98vw;
     top: -10%;
     right: 0;
     left: 0;
     margin: auto;
     background: url("../img/xuanzhuan.png") no-repeat center center;
-    background-size: cover;
+    background-size: 100% 100%;
     -webkit-animation: p1_flower 10s linear infinite;
     animation: p1_flower 10s linear infinite;
 }

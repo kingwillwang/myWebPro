@@ -38,9 +38,7 @@ var imgs = [
     "./img/wish_37.png",
     "./img/wish_38.png",
     "./img/wish_39.png",
-    "./img/wish_40.png",
-    "./img/baidian.png",
-    "./img/hongdian.png",
+    "./img/wish_40.png"
 ];
 
 
@@ -51,7 +49,7 @@ window.onload = init;
 //初始化
 function init() {
     loadImg();
-    chooseSex();
+    // chooseSex();
 }
 
 //预加载图片
@@ -110,16 +108,16 @@ function doAction() {
     timing();
 }
 
-function chooseSex() {
-    $(".p1_left").click(function(){
-        $("#p1_nan").attr('src',"img/hongdian.png");
-        $("#p1_nv").attr('src',"img/baidian.png");
-    });
-    $(".p1_right").click(function(){
-        $("#p1_nan").attr('src',"img/baidian.png");
-        $("#p1_nv").attr('src',"img/hongdian.png");
-    });
-}
+// function chooseSex() {
+//     $(".p1_left").click(function(){
+//         $("#p1_nan").attr('src',"img/hongdian.png");
+//         $("#p1_nv").attr('src',"img/baidian.png");
+//     });
+//     $(".p1_right").click(function(){
+//         $("#p1_nan").attr('src',"img/baidian.png");
+//         $("#p1_nv").attr('src',"img/hongdian.png");
+//     });
+// }
 
 
 
