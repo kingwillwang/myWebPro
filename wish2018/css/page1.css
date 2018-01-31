@@ -219,6 +219,10 @@
     animation-fill-mode: both;
 }
 
+.p1_choose input{
+    display: none;
+}
+
 #page1 > .p1_choose > .p1_left {
     display: -webkit-flex;
     display: flex;
@@ -228,15 +232,6 @@
     flex-direction: row;
     justify-content:center;
     align-items:center;
-}
-
-#p1_nan {
-    width: 4.8vw;
-    height: 4.8vw;
-    padding-right: 2vw;
-}
-
-#page1 > .p1_choose > .p1_left > span {
     font-size: 2.6em;
     font-weight: bold;
 }
@@ -250,17 +245,35 @@
     flex-direction: row;
     justify-content:center;
     align-items:center;
-}
-
-#p1_nv {
-    width: 4.8vw;
-    height: 4.8vw;
-    padding-right: 2vw;
-}
-
-#page1 > .p1_choose > .p1_right > span {
     font-size: 2.6em;
     font-weight: bold;
+}
+
+.p1_choose .radio-bg{
+    display: inline-block;
+    height: 4vw;
+    width: 4vw;
+    margin-right: 2vw;
+    padding: 0;
+    border: #000 solid 4px;
+    border-radius: 100%;
+    box-shadow: 0 1px 15px rgba(0, 0, 0, 0.1) inset, 0 1px 4px rgba(0, 0, 0, 0.1) inset, 1px -1px 2px rgba(0, 0, 0, 0.1);
+}
+
+.p1_choose input:checked + .radio-on{
+    width: 3.8vw;
+    height: 3.8vw;
+    position: absolute;
+    border-radius: 100%;
+    background: #d60b3b;
+    /*top: 4px;*/
+    left: 50%;
+    box-shadow: 0 2px 5px 1px rgba(0, 0, 0, 0.3), 0 0 1px rgba(255, 255, 255, 0.4) inset;
+    /*background-image: linear-gradient(#ffffff 0, #e7e7e7 100%);*/
+    /*transform: scale(0, 0);*/
+    /*transition: all 0.2s ease;*/
+    /*transform: scale(1, 1);*/
+    display: inline-block;
 }
 
 #page1 > .p1_sure {
